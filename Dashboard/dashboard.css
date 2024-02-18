@@ -1,0 +1,30 @@
+
+body{
+    color: var(--bs-cya)}
+    .box-for-logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 50px;
+        width: 50x;
+        background-color: #7280e2
+    }
+    
+.box-for-logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 50x;
+    background-color: #7280e2
+}
+/* .student-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68px;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  left: 410px;
+} */
