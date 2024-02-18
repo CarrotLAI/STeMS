@@ -1,0 +1,235 @@
+:root {
+  --head-font: Optima;
+  --blue:var(--blue, #08e997);
+  --bs: pink;
+}
+body{
+  background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content:baseline;
+    height: 80px;
+    box-shadow: 1px 1px 10px 5px #00000040;
+  }
+h1#homepage {
+margin-top: 20px;
+position: relative;
+left: 230px;
+top: -12px;
+font-size: 18px;
+color: var(--headcolor, white);
+font-family: var(--head-font, Serif);
+}
+h3#main {
+  color: white;
+  margin: 0px auto;
+  font-family: serif;
+}
+div.anchor-button{
+  position: relative;
+  left: -80px; 
+}
+button{
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  opacity: 0.3;
+}
+div.category-box{
+  padding: 10px 20px;
+  box-shadow: 1px 1px 10px 5px #00000040;
+}
+th{
+  height: 50px;
+}
+table{
+  position:relative;
+/*   width: 90%; */
+  height: 50px;
+} 
+/* .table-div{
+border: 1px solid rgb(0, 0, 0, 0.10);
+border-collapse: collapse;
+margin: 100px;
+padding: 0%;
+} */
+tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+text-align: center;
+}
+.studentListTable{
+position: absolute;
+height: 50px;
+width: 1000px;
+top: 100px;
+left: 176px;
+}
+.tableHead{
+height: 50px;
+background-color:white
+
+}
+.tbrows{
+background-color: rgb(255, 255, 255);
+}
+.navigation-section{
+  display:flex;
+  justify-content: flex-end;
+  height: 10px;
+  width: 100px;
+}
+#div-selectFilter{
+  display: flex;
+  justify-content: baseline;
+  margin: 30px auto;
+  height: 20px;
+  width: 100px;
+}
+select{
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 3px;
+  height: 30px;
+}
+.label{
+  padding: 5px 5px;
+}
+
+input#myInput{
+width: 250px;
+position: relative;
+/* display: flex; */
+  top: -15px;
+left: 10px;
+}
+
+#deletebtn{
+height: 30px;
+width: 70px;
+background-color: #e83838;
+color: white;
+border: transparent;
+/* margin-bottom: 10px; */
+padding: 8px;
+}
+
+/* The container above or the head */
+.home-container {  
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  /* width: 1366px; */
+  top: 0px;
+  left: 0px;
+  background-color: #7280e2;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  margin-right: 100%;
+}
+#stems-logo {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -12px;
+  left: 130px;
+  display: flex;
+}
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+
+.container {
+background-color: var(--modal-white, rgba(255, 255, 255, 0.5));
+position: absolute;
+height: 534px;
+width: 30%;
+top: 150px;
+left: 400px;
+right: 100px;
+border-radius: 5px;
+border: 1px solid #ccc ;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 20px;
+margin-top: -10px;
+margin-right: 50%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 18px 20px;
+margin: 3px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 12px;
+box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+border: none;
+cursor: pointer;
+}
+/* a{
+  padding: 15px;
+} */
+.student-button{
+  display: flex;
+  justify-content: flex-end;
+}
+#btnAddStudent{
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.fcc-btn {
+  background-color: #0a58ca;
+  color: white;
+  padding: 7px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.fcc-btn:hover{
+  color: white;
+}
+.fcc-btn-delete{
+  background-color: #ff0000;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#btnaddUser{
+height: 60px;
+width: 120px;
+background-color: #0040ff;
+color: #ccc;
+}
+button:hover, a:hover {
+opacity: 0.8;
+}
+
+/* contains the data inside the modal */
+.container {
+padding: 16px;
+border: 1px black;
+}
+span.psw {
+float: right;
+padding-top: 16px;
+}
+footer { 
+  height: 60px;
+  bottom: 0px;
+  }
+  .footer-text{
+    position: relative;
+    top: 6px;
+  }

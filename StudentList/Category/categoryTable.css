@@ -1,0 +1,7 @@
+.category-box{
+    position: relative;
+    padding: 30px;
+    top: 100px;
+    margin:10px;
+    border: 1px Solid rgba(0, 0, 0, .1);
+}

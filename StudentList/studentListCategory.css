@@ -1,0 +1,88 @@
+#navbar{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  box-shadow: 1px 1px 10px 5px #00000040;
+}
+body{
+background-repeat: no-repeat;
+}
+#stems-logo {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -12px;
+  left: 130px;
+  display: flex;
+}
+h1#homepage {   /* Student log */
+position: relative;
+left: 0px;
+color: var(--headcolor, white);
+font-family: var(--head-font, Serif);
+}
+.category-box{
+/*     border: 1px solid rgb(0, 0, 0, 0.10); */
+  border-collapse: collapse;
+  margin: 100px;
+  padding: 3%;
+  text-align: center;
+}
+div.anchor-button{
+position: relative;
+left: 150px; 
+}
+button{
+/*   background-color: transparent; */
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+}
+#btnbackToHome, #btnStudentLog{
+background-color: transparent;
+}
+button:hover{
+opacity: 0.3;
+}
+.course-list{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-auto-rows: auto;
+/*     grid-template-rows: (100px, auto); */
+/*     grid-row-gap: 20px; */
+  grid-column-gap: 10px;
+
+}
+
+.category-box{
+border: none;
+margin: 10px auto;
+padding: 100px;
+box-shadow: 1px 1px 10px 5px #00000040;
+}
+#btnCategory{
+  border: none;
+  box-shadow:aliceblue;
+  border-radius: 10px;
+}
+/* #btnCategory:hover{
+  opacity: 0.5;
+} */
+h1#title{
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Georgia, serif;
+  font-size: 2.4em;
+  text-align: center;
+/*     color: white; */
+  margin: 50px auto;
+}
+footer { 
+  height: 60px;
+  bottom: 0px;
+  }
+  .footer-text{
+    position: relative;
+    top: 6px;
+  }
